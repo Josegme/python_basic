@@ -80,6 +80,7 @@ SECTION 3 - CONTROL DE FLUJO
     Sirve cuando estamos haciendo evaluaciones muy pesadas. Entonces seria un ahorro de espacio
     todo se ejecuta de izquiera a derecha -------------------->
     salva que tengamos un parentesis () se evalua primero lo que esta dentro del parentesis
-    
+
+#25 Cadena de Comparaciones: 
 
 
