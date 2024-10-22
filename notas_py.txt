@@ -1,0 +1,85 @@
+APUNTES: PYTHON (de 0 a Prog)
+#1 Instalar PYTHON
+#2 REPL de Py (Read Eval Prin Loop): se comunica con el interprete.  
+#3 Editor de Código/IDE (integral Develope enviromen/autocompletado, debugging, testing) -> VSCode
+#4 Funciones Predeterminadas/Integradas dentro de nuestro lenguaje de Programación
+    acciones integradas dentro del lenguaje
+    print() hay que colocar los () para que la función se ejecute
+    Ej:
+    Los programas se ejecutan de arriba hacia abajo
+    Podemos multiplicar palabras words*5 y esto se repetira 5 veces
+#5 Extensiones en VSCode (IDE)
+    .Python (microsoft)
+    .Pylint
+        .Linting: Busca errores
+        .autocompletado
+        .Debugging 
+        .Code formetting
+        .Unit testing
+        .Code Snippets
+#6 CO114: Pylint nos avisa que debemos colocar un título para la Documentación
+        .Es decir que podemos detectar rapidamente los posibles errores
+    Paleta de Comandos: Shift+Ctrol+P 
+    
+    Tambien podemos ver potenciales errores en PROBLEMS (SHIFT+CTROL+M)
+#7 Para organizar el fichero y se vea mas legible podemos utilizar en la linea de Comandos
+    Format Document - Formatter autopep8 
+    Settings -> formatOnSave -> marcar - Editor: Format On formatOnSave
+    entoces cada vez que guarda corrige la legibilidad de la escritura del programas 
+    se corrige automaticamente cada vez que guardo.
+    PEP8 -> buscar y leer "Style Guide for Python Code" convención de estilos de Python
+#8 Ejecutando Código: Elijo el Lenguaje y presiono en play RUN PYTHON FILE
+
+#9 Como se ejecuta el Código: Implementaciones 
+    Lenguajes de Programación (es un set de reglas para ser considerado lenguaje)
+    Py Lenguaje de Alto Nivel (Implementación -> Sistema Op + Procesador)
+    El que descargamos es cPython (escrito en C)- PyPy (escrita en Python) - Jy THON (en JAVA) - IronPython (C#) - Brython (explorador Web)
+    Cpython tiene la ventaja que es la implementación oficial de Python
+
+    Como se ejecutan las Programaciones en Python?
+    Pyhton -> ByteCode -> PVM (Python virtual machine)
+    para transformar nuestro programa en lenguaje de maquina.
+    Entonces sabemos como se ejecuta el programa escrito en Python, para ejecutarlo en un explorador Web
+
+SECTION 2: TIPOS BÁSICOS
+
+#10 Variables - 01_tipos_variables.Py
+#11 String en Py - 02_strings.py 
+#12 Formato String - 03_format_string.py
+#13 Metodos String - 04_metodos_string.py
+    
+#14 Secuencias de Escape - 05_secuencias_escape.py
+
+#15 Números - 06_numeros.py  
+#16 Módulo Math - 07_numeros_funciones.py
+
+#17 Calculadora - 08_calculadora.py
+#18 Conversion de Tipos - 09_conversion_tipos.py 
+
+SECTION 3 - CONTROL DE FLUJO
+
+#19 Comparadores Lógicos - Carpeta - Control_Flujo
+    #19 Comparadores
+    #20 If-else
+    #21 If-Else-Elif
+        var -> para dar el inicio
+        Inicio -> condicional (Si-SinoSi-SinoSi....Sino)
+    #22 Operardo Ternario
+
+#23 Operadores Lógicos: AND - OR - NOT 
+    AND utilizamos cuando tenemos que cumplir con dos condiciones V & V = V (de lo contrario es F)
+    OR utilizamos cuando tenemos dos condiciones pero con una que es V la Operación es True (F or F = F) 
+    de lo contrario es Verdadero (V or F - F or V - V or V) 
+    NOT Cambia el valor de verdad de la operación NOT True = F --- NOT False = V 
+
+#24 Operadores de Cortocircuito
+    si estamos trbajando con AND -> necesitamos que todas tienen que ser True
+    para que sea True -> V & V -> python solo evalua la primera 
+    si la primera es False -> todo ya es False -> F & V = F - F & F = F y si es V & F = F 
+    y si la primera es True entonces recien evalúa la segunda condición
+    Sirve cuando estamos haciendo evaluaciones muy pesadas. Entonces seria un ahorro de espacio
+    todo se ejecuta de izquiera a derecha -------------------->
+    salva que tengamos un parentesis () se evalua primero lo que esta dentro del parentesis
+    
+
+
