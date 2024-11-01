@@ -83,4 +83,7 @@ SECTION 3 - CONTROL DE FLUJO
 
 #25 Cadena de Comparaciones: 
 
+#26 Loop FOR - Bucle uso BÁSICO
+#27 FOR ELSE 
 
+#28 Iterar
