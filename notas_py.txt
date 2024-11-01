@@ -86,4 +86,11 @@ SECTION 3 - CONTROL DE FLUJO
 #26 Loop FOR - Bucle uso BÁSICO
 #27 FOR ELSE 
 
-#28 Iterar
+#28 Iterables
+#29 While -> Bucle iterador pero cuando queremos trabajar con algo siempre
+                y cuando se cumpla o no con alguna condición
+#30 Loop Infinito -> Es cuando no tenemos un condición de salida y 
+                    el iterador opera de manera indeterminada hasta Infinito
+    como podemos cambiar esto -> ver ej 30
+
+#31 Loop Anidados -> 
