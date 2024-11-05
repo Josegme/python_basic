@@ -111,3 +111,12 @@ pero no sabemos cuantos estos van a recibir (*nombrePlurar)->se transforma en un
 
 #39 KWARGS -> Key Words Arguments 
                 es una manera de empaquetar todos los parametros en un parametro
+#40 Return
+
+#41 Alcance
+
+#42 Depurando funciones
+
+#43 Ejercicios
+#44 Solución de ejercicios
+ 
