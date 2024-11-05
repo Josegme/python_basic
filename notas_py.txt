@@ -94,3 +94,20 @@ SECTION 3 - CONTROL DE FLUJO
     como podemos cambiar esto -> ver ej 30
 
 #31 Loop Anidados -> 
+#32 Ejercicio
+#33 Solución del Ejercicio
+
+===========SECTION 4: FUNCIONES ==============
+#34 Introducción a funciones: Cuando construimos app contienen miles de líneas
+    la utilidad de las funciones es poder crear estructuras o bloques de códigos
+    de manera que podamos reutilizar cada vez que necesitemos o modificarlas. 
+
+#35 Parametros y Argumentos -> seguimos en 34 
+#36 Parametros/Argumentos Opcionales -> seguimos en 34
+#37 Argumentos Nombrados -> seguimos en 34
+
+#38 XARGS -> Cuando quiero pasar multiples (muchos) argumentos a una función 
+pero no sabemos cuantos estos van a recibir (*nombrePlurar)->se transforma en un iterable con for
+
+#39 KWARGS -> Key Words Arguments 
+                es una manera de empaquetar todos los parametros en un parametro
