@@ -113,10 +113,34 @@ pero no sabemos cuantos estos van a recibir (*nombrePlurar)->se transforma en un
                 es una manera de empaquetar todos los parametros en un parametro
 #40 Return
 
-#41 Alcance
+#41 Alcance -> SCOPE - como funcionan las variables definidas local o globalmente
+                        -buena práctica es siempre utilizar variables locales 
 
-#42 Depurando funciones
+#42 Depurando funciones -> para encontrar errores dentro de nuestro código
 
 #43 Ejercicios
 #44 Solución de ejercicios
+
+============Sección 5: Tipos de Datos Avanzados==================================
+
+#45 Listas ->Las listas son lo como cualquier lista pero podemos colocar dentro
+        números, caracteres, otras listas, estructuras
+        variable = [elementos, de, la, lista]
+        el contenido lo podemos encontrar o llamar según su posición, delimitado cada posición por la coma.
+        por ejemplo:
+        numeros = [1, 2, 3]
+        letras = ["a", "b", "c"]
+        matriz = [[0,1], [1,0]] #podemos crear entonces una matriz
+        ceros = [0] * 10 #para tener un listado con 10 ceros
+        #podemos sumar listas, multiplicar por un num determinado, listado de números con la función de rango
+        rango = list(range(10))
+        #es decir que puedo manipular las listas
+
+#46 Manipulando listas -> para ponder manipular los elementos dentro de las listas.
+
+#47 Desempaquetar Listas -> 
+#48 Iterar Listas
+#49 Buscar Elementos dentro de un Arreglo
+#50 Agregar y Eliminando Elementos
+#51 Ordenando Listas
  

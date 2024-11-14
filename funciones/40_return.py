@@ -12,8 +12,9 @@ suma(1, 2)
 
 def suma(a, b):
     resultado = a + b
-    return resultado
+    return resultado 
 
-c = suma(1 , 2) #como en la función esta RETURN para devolver el resultado de la operacion en la función
+c = suma(1 , 2) #co mo en la función esta RETURN para devolver el resultado de la operacion en la función
 d = suma(c , 3) #c lo que va a devolver es el resultado por lo tanto c + 3 debe ser 6
 
+print(d) 
