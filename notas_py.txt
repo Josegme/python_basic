@@ -143,4 +143,12 @@ pero no sabemos cuantos estos van a recibir (*nombrePlurar)->se transforma en un
 #49 Buscar Elementos dentro de un Arreglo
 #50 Agregar y Eliminando Elementos
 #51 Ordenando Listas
+#52 Expresiones Lambda (o funciones anonimas)
+#53 Comprension de Listas en Py
+#54 Map y Filter
+#55 Tuplas
+
+#56 Sets 
+#57 Diccionarios 
+
  
