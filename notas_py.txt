@@ -150,5 +150,23 @@ pero no sabemos cuantos estos van a recibir (*nombrePlurar)->se transforma en un
 
 #56 Sets 
 #57 Diccionarios 
+#58 Operador de Desempaquetamiento
 
- 
+#59 Filas -> que pasa si tenemos una fila de 4 personas -> cumplen con la regla FIFO
+#60 Pilas -> Que sucede cuando apilamos algo? -> vamos colocando una cosa sobre la otra
+            en este caso se rige por LIFO "Last in - First Out" -> es decir lo ultimo que ingresa
+            es lo primero que saco de la pila. 
+#61 y 62 Ejercicios- 
+            1. Eliminar los espacios en blanco de un string y devolver una lista
+            con los caracteres restantes.
+            2. Contar en un diccionario cuanto se repiten los caracteres de un string
+            3. Ordenar las llaves de un diccionario por el valor que tienen
+            y devolver una lista que contiene Tuplas
+            [("a", 3)], [("b", 2)], [("c", 4)], [("d", 4)]
+            4. de un listado de tuplas, devolver las tuplas que tengan el mayor valor
+            5. Crear un mensaje que diga: 
+            Los caracteres que mas se repiten con (cantidad de repeticiones) son 
+            mostrar una lista con los caracteres que mas se hayan repetido
+            .Los caracteres deben estar con mayuscula
+            6. Juntar la solucion de los ejercicios anteriores para encontrar los caracteres que mas 
+            se repitn de un string. 
