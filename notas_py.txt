@@ -170,3 +170,31 @@ pero no sabemos cuantos estos van a recibir (*nombrePlurar)->se transforma en un
             .Los caracteres deben estar con mayuscula
             6. Juntar la solucion de los ejercicios anteriores para encontrar los caracteres que mas 
             se repitn de un string. 
+
+====== SECCIÓN 6: CLASES ===========
+
+#63 Introducción a CLASES:
+        Cuando creamos una clase estamos haciendo como el plano de construcción de una casa 
+        Cuando creamos toda la casa es un OBJETO
+        y cada CASA creada va a ser una INSTANCIA de la CLASES
+        
+#64 Creando CLASES
+#65 Constructor
+#66 Propiedades de clase 
+#67 Métodos de clase
+#68 Propiedades y métodos privados
+#69 Decorador property
+#70 Métodos mágicos
+#71 Desctructor
+#72 Comparando Objetos
+#73 Contenedores
+#74 Herencia
+#75 Herencia multiple
+#76 Anulación de métodos
+#77 Empleo real 
+#78 Clases Abstractas 
+#79 Polimorfismo
+#80 Duck typin
+#81 Extendiendo tipos nativos
+
+
