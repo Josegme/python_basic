@@ -197,4 +197,23 @@ pero no sabemos cuantos estos van a recibir (*nombrePlurar)->se transforma en un
 #80 Duck typin
 #81 Extendiendo tipos nativos
 
+Sección 7: Excepciones
 
+#82 Introduccion a las Excepciones
+#83 Tipos de Excepciones
+#84 Else y Finally
+#85 Invocando Excepciones
+#86 Excepciones Personalizadas
+
+Seccion 8: Modulos
+
+#87 Introduccion
+#88 Modulos Compilados
+#89 Paquetes
+#90 Sub-Paquetes
+#91 Referenciando Sub-Paquetes
+#92 Dir 
+#93 Paquetes con nombres Dinámicos
+#94 Import Condicionales
+
+Seccion 9: Rutas y Directorios
