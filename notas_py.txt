@@ -217,3 +217,11 @@ Seccion 8: Modulos
 #94 Import Condicionales
 
 Seccion 9: Rutas y Directorios
+    #95 Rutas
+    #96 Directorios
+    #97 Inyecciones de dependencias
+    #98 Import dinámico de Paquetes
+
+Sección 10: Gestión de Archivos
+
+
