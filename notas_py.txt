@@ -223,5 +223,21 @@ Seccion 9: Rutas y Directorios
     #98 Import dinámico de Paquetes
 
 Sección 10: Gestión de Archivos
+    #99 Introduccion
+    #100 lectura y escritura
+    #101 open
+    #102 Archivos CSV
+    #103 Archivos JSON
+    #104 Archivos comprimidos
+
+Sección 11: Base de Datos SQLite
+    #105 Introduccion
+    #106 Creando Conexión
+    #107 Creando tablas
+    #108 with 
+    #109 insert 
+    #110 insert many
+    #111 Select one 
+    #112 Select all
 
 
