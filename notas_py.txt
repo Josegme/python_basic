@@ -240,4 +240,30 @@ Sección 11: Base de Datos SQLite
     #111 Select one 
     #112 Select all
 
+Seccion 12: Paquetes Nativos de Python
+    #113 Introduccion
+    #114 Browser
+    #115 Fechas
+    #116 Timedelta
+    #117 Random
+    #118 Aplicaciones para la linea de Comandos
+    #119 Como enviar correos
+    #120 enviando correos
+    #121 plantillas
+
+Seccion 13: Indice de paquetes de Python
+
+    #122 Introduccion
+    #123 Pip 
+    #124 Ambientes Virtuales
+    #125 pipenv
+    #126 pipfile
+    #127 gestion de dependencias
+    #128 documentando paquetes
+    #129 Publicando paquetes
+    #128 Publicando Paquetes
+
+Seccion 14: Paquetes Populares
+
+
 
