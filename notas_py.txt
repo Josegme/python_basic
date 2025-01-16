@@ -257,7 +257,63 @@ Seccion 13: Indice de paquetes de Python
     #123 Pip 
     #124 Ambientes Virtuales
     #125 pipenv
-    #126 pipfile
+    #126 pipfile ################################################33
+""""
+Cuando nosotros instalamos nuestras dependencias utilizando este 
+pipenv este nos va a crear dos archivos dentro. 
+
+Nos va crear 
+pipfile y pipfile.lock
+
+PIPFILE: tenemos diferentes recursos importantes con conceptos que debemos entender
+    SOURCES -> fuente de donde esta obteniendo todos los paquetes, módulos y dependencias
+    que esta instalando. 
+    PACKAGES -> es el paquete que le indicamos que este tenía que instalar.
+    por ejemplo requests = "*" (* ultima versión)
+    DEV-PACKAGES - Herramientas para ejecutar la app facilitando el desarrollo
+    por ej herramientas para ejecutar nuestros test.
+
+PIPFILE.LOG
+    TIENE LA VERSION EXACTA DE LOS PAQUETES INSTALADOS 
+    DEFAULT -> indica dependencias instaladas
+
+Para compartir el Trabajo con otros desarrolladores.
+voy a la terminal. 
+
+pipenv --venv
+nos indica ubicacion de nuestro paquete
+Para elimnar rm -rf rutaque/nos/llevaa/nuestra carpeta
+
+pipenv install -> para instalar todo el paquete. Se va ainstalar la última versión .
+NECESARIAMENTE EL REQUESTS TENIA "*" 
+para resolver entonces hay que instalar la version que corresponde a nuestra versión con la 
+que venimos trabajando, entonces:
+
+pipenv install --ignore-pipfile
+instalamos las dependendcias respetando las versiones con las que venimos trabajando. 
+
+"""
+"""Como gesionamos las depenencias que ya tenemos instaladas
+
+desde la terminal 
+    > pipenv graph
+    va a mostrar todas las dependecias para que pueda funcionar 
+
+    para desintalar por ejemplo el REQUEST
+    > pipenv unistall requests
+
+    si queremos instalar un paquete en específico
+    pipenv install 'requests==2.10*'
+podemos verificar la instalación en pipfile
+
+para revisar que paquetes instalados no se encuentran actualizados a la ultima version
+    >pipenv update --outdated
+
+    controlo y veo si quiero actualizar
+    >pipenv update 
+    para que me actualice todo o algun paquete en específico
+
+
     #127 gestion de dependencias
     #128 documentando paquetes
     #129 Publicando paquetes
