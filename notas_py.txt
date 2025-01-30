@@ -320,6 +320,39 @@ para revisar que paquetes instalados no se encuentran actualizados a la ultima v
     #128 Publicando Paquetes
 
 Seccion 14: Paquetes Populares
+    130 Variables de Entorno
+    131 Sengrid
+    132 SMS 
+    133 requests
+        cuando estamos trabajando con una API nos otorga un USUARIO o CONTRASEÑA
+        y al API nos entrega una KEY o API KEY esta necesariamente hay que agregar a
+        todas las peticiones que hagamos (GET, PUT, PATH etc) 
+        y van a tener que tener en todas sus cabeceras la API KEY
+    134 Headers en requests
+
+    135 Web Scraping
+        Vimos como podemos comunicarnos con otros servicios pero no todas las pag web nos van a entregar una API requests
+        entonces vamos a tener que analizar a cuales paginas web podemos conectarnos
+        stackoverflow
+        obetemos el titulo de las preguntas mas recientes y el nombre de usuario
+        en nuestra terminal -> pipenv install beautifulsoup4
+    136 Excel
+    137 Pruebas Automáticas
+        Automatizar las pruebas es muy útil -> asi que podemos ir haciendo pruebas automatizadas
+        asi no tenemos que hacer pruebas manuales. 
+        Primero tenemos que instalar Selenium
+        ir a Pipy -> selenium 
+            bajar hasta los drivers -> que depende de lo que estamos haciendo
+            se recomienda ChromeDrive
+            ir a Chrome y ver la versison about Chrome
+            vemos las versiones -> nos interesa la de win32 "ahora" 
+            dejar esto en un lugar especifico como un lugar del disco C (carpeta web driver llevar ahí el archivo.)
+            ir al buscardor y enviroment -> luego ir a path edit -> new -> escribir la ruta donde guarder el driver
+            para instalar con exito en Chrome
+            
+    138 Selenium
+    
+
 
 
 
