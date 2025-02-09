@@ -1,0 +1,83 @@
+Temario de Estructura de Datos con Python
+
+#1 Lenguaje Interpretado (mas flexibles y portables) - Bytecode "semi compilado"
+    Tipádo Dinámico: "no es necesario declarar su tipo - se determina cuando se ejecuta según el tipo de valor"
+    Fuertemente Tipado: No se puede tratar a una variable como si fuera de otro tipo, hay que convertir la variable de forma explicita
+
+#2 cual es la diferencia entre Bytecode Vs código binario? 
+    Por ej C-Cuando un lenguaje complila a código binario, es ejecutado directamente en tu navegador. 
+    Por Ej Java-Compila Bytecode que luego es ejecutado en la maquina virtual -> una abstracción de una computadroa que ejecuta programas.
+    Cada instrucción es manejada por una maquina virtual que intercatua con la computadora. 
+Código Binario es mas rápido pero ByteCode es mas portable y seguro.
+La principal diferencia entre el código binario y el bytecode es que el código binario se ejecuta directamente por el 
+hardware de la máquina, mientras que el bytecode se ejecuta por intérpretes o máquinas virtuales. 
+El bytecode es un código intermedio que se genera al compilar un código fuente. 
+Es un lenguaje de programación que actúa como puente entre el lenguaje de programación de alto nivel y el código máquina.
+
+#3 Palabras Reservadas -> como en cualquier otro lenguaje de programación, existen palabras reservadas en Python
+    False True class is return None continu lambda try def nonlocal while and del not while and with as elif or yield
+    assert else pass * break except raise ...
+
+#4 print() -> imprime 
+
+#5 Variables -> espacio en memoria de la compu y 
+                tiene un identificador asociado a dicho espacio con un TIPO de dato
+            -esa variable contiene informacion "valor"
+            -separación de nombre y contenido
+            -El identificador, en el código fuente de la computadora puede estar ligado a un valor durante el tiempo 
+            de ejecución y el valor de la variable puede por lo tanto cambiar durante el cursode la ejecución del programa
+el ámbito (SCOPE) -> DETERMINA EN QUE PARTES DEL PROGRAMA UNA ENTIDAD PUEDE SER USADA abajo
+ámbito local y ámbito globlal
+Un variable puede ser definida dentro de un Bloque (método/función/procedimiento) pero no puede ser utilizado fuera de ese bloque. 
+es decir que puede ser utilizado dentro de su propio bloque o por bloques hijos, pero no hermanos o padres.
+En cambio una varible definida en el ambito global puede ser utilizado en cualquier bloque y hasta modificarla.
+
+#6 Tipos de Datos
+                Números (int, float) - Cadenas de Texto - Booleanos (True - False -> importantes para las expresiones condicionales y bucles)
+                int:
+                a = -1 #a es de tipo entero con valor -1
+                b = a + 2 # b es de tipo entero y su valor es 1
+                un_real = 1.1 # un_real es un número decimal que tiene el valor 1.1
+                otro_real = 0.2703 
+                otro_real = 1/2     
+
+    Tipo Cadena de Caracteres "STRING" -> str 
+    un string es una secuencia inmutable de caracteres en formato Unicode
+    miCadena = "Hola Mundo" # miCadena seria la variable que se debería devolver Hola Mundo
+    print miCadena >_ Hola Mundo para imprimir una cadena print nombreCadena
+
+#7 Type() & isinstance()
+    type -> recibe como parametro un objeto y te devuelve el tipo
+    type(2.78)
+    _ <class float>
+
+    isinstance -> recibe dos parámetros: UN OBJETO Y UN TIPO -> devuelve TRUE si el objeto es del TIPO que se pasa como parámetro 
+            isinstance(3, int)
+            _True -> por que se le paso dos parametros y el tipo coincide con el objeto
+
+#8 Operadores: 
+            Operadores - Descripciones - Ejemplos
+            +              Suma         r = 2+5 -> r=5
+            -              Resta        r = 4-7 -> r=3
+            !              Negación
+            *              Multiplicación
+            **             Exponente
+            /              Division
+            //             Division Entera
+            %              Modulo
+
+#9 Operadores de Comparación
+            == igual que
+            != distinto que
+            < menor que
+            > mayor que
+            >= mayor o igual 
+            <= menor o igual
+
+#10 Operaciónes Lógicas -> OR AND y NOT (o excluyente es ^)
+        OR = False si F or F de lo contrario siempre es V
+        AND = True si V and V de lo contrario es F
+        NOT cambia el valor de verdad de la operación
+        
+
+

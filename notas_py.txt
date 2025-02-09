@@ -1,0 +1,358 @@
+APUNTES: PYTHON (de 0 a Prog)
+#1 Instalar PYTHON
+#2 REPL de Py (Read Eval Prin Loop): se comunica con el interprete.  
+#3 Editor de Código/IDE (integral Develope enviromen/autocompletado, debugging, testing) -> VSCode
+#4 Funciones Predeterminadas/Integradas dentro de nuestro lenguaje de Programación
+    acciones integradas dentro del lenguaje
+    print() hay que colocar los () para que la función se ejecute
+    Ej:
+    Los programas se ejecutan de arriba hacia abajo
+    Podemos multiplicar palabras words*5 y esto se repetira 5 veces
+#5 Extensiones en VSCode (IDE)
+    .Python (microsoft)
+    .Pylint
+        .Linting: Busca errores
+        .autocompletado
+        .Debugging 
+        .Code formetting
+        .Unit testing
+        .Code Snippets
+#6 CO114: Pylint nos avisa que debemos colocar un título para la Documentación
+        .Es decir que podemos detectar rapidamente los posibles errores
+    Paleta de Comandos: Shift+Ctrol+P 
+    
+    Tambien podemos ver potenciales errores en PROBLEMS (SHIFT+CTROL+M)
+#7 Para organizar el fichero y se vea mas legible podemos utilizar en la linea de Comandos
+    Format Document - Formatter autopep8 
+    Settings -> formatOnSave -> marcar - Editor: Format On formatOnSave
+    entoces cada vez que guarda corrige la legibilidad de la escritura del programas 
+    se corrige automaticamente cada vez que guardo.
+    PEP8 -> buscar y leer "Style Guide for Python Code" convención de estilos de Python
+#8 Ejecutando Código: Elijo el Lenguaje y presiono en play RUN PYTHON FILE
+
+#9 Como se ejecuta el Código: Implementaciones 
+    Lenguajes de Programación (es un set de reglas para ser considerado lenguaje)
+    Py Lenguaje de Alto Nivel (Implementación -> Sistema Op + Procesador)
+    El que descargamos es cPython (escrito en C)- PyPy (escrita en Python) - Jy THON (en JAVA) - IronPython (C#) - Brython (explorador Web)
+    Cpython tiene la ventaja que es la implementación oficial de Python
+
+    Como se ejecutan las Programaciones en Python?
+    Pyhton -> ByteCode -> PVM (Python virtual machine)
+    para transformar nuestro programa en lenguaje de maquina.
+    Entonces sabemos como se ejecuta el programa escrito en Python, para ejecutarlo en un explorador Web
+
+SECTION 2: TIPOS BÁSICOS
+
+#10 Variables - 01_tipos_variables.Py
+#11 String en Py - 02_strings.py 
+#12 Formato String - 03_format_string.py
+#13 Metodos String - 04_metodos_string.py
+    
+#14 Secuencias de Escape - 05_secuencias_escape.py
+
+#15 Números - 06_numeros.py  
+#16 Módulo Math - 07_numeros_funciones.py
+
+#17 Calculadora - 08_calculadora.py
+#18 Conversion de Tipos - 09_conversion_tipos.py 
+
+SECTION 3 - CONTROL DE FLUJO
+
+#19 Comparadores Lógicos - Carpeta - Control_Flujo
+    #19 Comparadores
+    #20 If-else
+    #21 If-Else-Elif
+        var -> para dar el inicio
+        Inicio -> condicional (Si-SinoSi-SinoSi....Sino)
+    #22 Operardo Ternario
+
+#23 Operadores Lógicos: AND - OR - NOT 
+    AND utilizamos cuando tenemos que cumplir con dos condiciones V & V = V (de lo contrario es F)
+    OR utilizamos cuando tenemos dos condiciones pero con una que es V la Operación es True (F or F = F) 
+    de lo contrario es Verdadero (V or F - F or V - V or V) 
+    NOT Cambia el valor de verdad de la operación NOT True = F --- NOT False = V 
+
+#24 Operadores de Cortocircuito
+    si estamos trbajando con AND -> necesitamos que todas tienen que ser True
+    para que sea True -> V & V -> python solo evalua la primera 
+    si la primera es False -> todo ya es False -> F & V = F - F & F = F y si es V & F = F 
+    y si la primera es True entonces recien evalúa la segunda condición
+    Sirve cuando estamos haciendo evaluaciones muy pesadas. Entonces seria un ahorro de espacio
+    todo se ejecuta de izquiera a derecha -------------------->
+    salva que tengamos un parentesis () se evalua primero lo que esta dentro del parentesis
+
+#25 Cadena de Comparaciones: 
+
+#26 Loop FOR - Bucle uso BÁSICO
+#27 FOR ELSE 
+
+#28 Iterables
+#29 While -> Bucle iterador pero cuando queremos trabajar con algo siempre
+                y cuando se cumpla o no con alguna condición
+#30 Loop Infinito -> Es cuando no tenemos un condición de salida y 
+                    el iterador opera de manera indeterminada hasta Infinito
+    como podemos cambiar esto -> ver ej 30
+
+#31 Loop Anidados -> 
+#32 Ejercicio
+#33 Solución del Ejercicio
+
+===========SECTION 4: FUNCIONES ==============
+#34 Introducción a funciones: Cuando construimos app contienen miles de líneas
+    la utilidad de las funciones es poder crear estructuras o bloques de códigos
+    de manera que podamos reutilizar cada vez que necesitemos o modificarlas. 
+
+#35 Parametros y Argumentos -> seguimos en 34 
+#36 Parametros/Argumentos Opcionales -> seguimos en 34
+#37 Argumentos Nombrados -> seguimos en 34
+
+#38 XARGS -> Cuando quiero pasar multiples (muchos) argumentos a una función 
+pero no sabemos cuantos estos van a recibir (*nombrePlurar)->se transforma en un iterable con for
+
+#39 KWARGS -> Key Words Arguments 
+                es una manera de empaquetar todos los parametros en un parametro
+#40 Return
+
+#41 Alcance -> SCOPE - como funcionan las variables definidas local o globalmente
+                        -buena práctica es siempre utilizar variables locales 
+
+#42 Depurando funciones -> para encontrar errores dentro de nuestro código
+
+#43 Ejercicios
+#44 Solución de ejercicios
+
+============Sección 5: Tipos de Datos Avanzados==================================
+
+#45 Listas ->Las listas son lo como cualquier lista pero podemos colocar dentro
+        números, caracteres, otras listas, estructuras
+        variable = [elementos, de, la, lista]
+        el contenido lo podemos encontrar o llamar según su posición, delimitado cada posición por la coma.
+        por ejemplo:
+        numeros = [1, 2, 3]
+        letras = ["a", "b", "c"]
+        matriz = [[0,1], [1,0]] #podemos crear entonces una matriz
+        ceros = [0] * 10 #para tener un listado con 10 ceros
+        #podemos sumar listas, multiplicar por un num determinado, listado de números con la función de rango
+        rango = list(range(10))
+        #es decir que puedo manipular las listas
+
+#46 Manipulando listas -> para ponder manipular los elementos dentro de las listas.
+
+#47 Desempaquetar Listas -> 
+#48 Iterar Listas
+#49 Buscar Elementos dentro de un Arreglo
+#50 Agregar y Eliminando Elementos
+#51 Ordenando Listas
+#52 Expresiones Lambda (o funciones anonimas)
+#53 Comprension de Listas en Py
+#54 Map y Filter
+#55 Tuplas
+
+#56 Sets 
+#57 Diccionarios 
+#58 Operador de Desempaquetamiento
+
+#59 Filas -> que pasa si tenemos una fila de 4 personas -> cumplen con la regla FIFO
+#60 Pilas -> Que sucede cuando apilamos algo? -> vamos colocando una cosa sobre la otra
+            en este caso se rige por LIFO "Last in - First Out" -> es decir lo ultimo que ingresa
+            es lo primero que saco de la pila. 
+#61 y 62 Ejercicios- 
+            1. Eliminar los espacios en blanco de un string y devolver una lista
+            con los caracteres restantes.
+            2. Contar en un diccionario cuanto se repiten los caracteres de un string
+            3. Ordenar las llaves de un diccionario por el valor que tienen
+            y devolver una lista que contiene Tuplas
+            [("a", 3)], [("b", 2)], [("c", 4)], [("d", 4)]
+            4. de un listado de tuplas, devolver las tuplas que tengan el mayor valor
+            5. Crear un mensaje que diga: 
+            Los caracteres que mas se repiten con (cantidad de repeticiones) son 
+            mostrar una lista con los caracteres que mas se hayan repetido
+            .Los caracteres deben estar con mayuscula
+            6. Juntar la solucion de los ejercicios anteriores para encontrar los caracteres que mas 
+            se repitn de un string. 
+
+====== SECCIÓN 6: CLASES ===========
+
+#63 Introducción a CLASES:
+        Cuando creamos una clase estamos haciendo como el plano de construcción de una casa 
+        Cuando creamos toda la casa es un OBJETO
+        y cada CASA creada va a ser una INSTANCIA de la CLASES
+        
+#64 Creando CLASES
+#65 Constructor
+#66 Propiedades de clase 
+#67 Métodos de clase
+#68 Propiedades y métodos privados
+#69 Decorador property
+#70 Métodos mágicos
+#71 Desctructor
+#72 Comparando Objetos
+#73 Contenedores
+#74 Herencia
+#75 Herencia multiple
+#76 Anulación de métodos
+#77 Empleo real 
+#78 Clases Abstractas 
+#79 Polimorfismo
+#80 Duck typin
+#81 Extendiendo tipos nativos
+
+Sección 7: Excepciones
+
+#82 Introduccion a las Excepciones
+#83 Tipos de Excepciones
+#84 Else y Finally
+#85 Invocando Excepciones
+#86 Excepciones Personalizadas
+
+Seccion 8: Modulos
+
+#87 Introduccion
+#88 Modulos Compilados
+#89 Paquetes
+#90 Sub-Paquetes
+#91 Referenciando Sub-Paquetes
+#92 Dir 
+#93 Paquetes con nombres Dinámicos
+#94 Import Condicionales
+
+Seccion 9: Rutas y Directorios
+    #95 Rutas
+    #96 Directorios
+    #97 Inyecciones de dependencias
+    #98 Import dinámico de Paquetes
+
+Sección 10: Gestión de Archivos
+    #99 Introduccion
+    #100 lectura y escritura
+    #101 open
+    #102 Archivos CSV
+    #103 Archivos JSON
+    #104 Archivos comprimidos
+
+Sección 11: Base de Datos SQLite
+    #105 Introduccion
+    #106 Creando Conexión
+    #107 Creando tablas
+    #108 with 
+    #109 insert 
+    #110 insert many
+    #111 Select one 
+    #112 Select all
+
+Seccion 12: Paquetes Nativos de Python
+    #113 Introduccion
+    #114 Browser
+    #115 Fechas
+    #116 Timedelta
+    #117 Random
+    #118 Aplicaciones para la linea de Comandos
+    #119 Como enviar correos
+    #120 enviando correos
+    #121 plantillas
+
+Seccion 13: Indice de paquetes de Python
+
+    #122 Introduccion
+    #123 Pip 
+    #124 Ambientes Virtuales
+    #125 pipenv
+    #126 pipfile ################################################33
+""""
+Cuando nosotros instalamos nuestras dependencias utilizando este 
+pipenv este nos va a crear dos archivos dentro. 
+
+Nos va crear 
+pipfile y pipfile.lock
+
+PIPFILE: tenemos diferentes recursos importantes con conceptos que debemos entender
+    SOURCES -> fuente de donde esta obteniendo todos los paquetes, módulos y dependencias
+    que esta instalando. 
+    PACKAGES -> es el paquete que le indicamos que este tenía que instalar.
+    por ejemplo requests = "*" (* ultima versión)
+    DEV-PACKAGES - Herramientas para ejecutar la app facilitando el desarrollo
+    por ej herramientas para ejecutar nuestros test.
+
+PIPFILE.LOG
+    TIENE LA VERSION EXACTA DE LOS PAQUETES INSTALADOS 
+    DEFAULT -> indica dependencias instaladas
+
+Para compartir el Trabajo con otros desarrolladores.
+voy a la terminal. 
+
+pipenv --venv
+nos indica ubicacion de nuestro paquete
+Para elimnar rm -rf rutaque/nos/llevaa/nuestra carpeta
+
+pipenv install -> para instalar todo el paquete. Se va ainstalar la última versión .
+NECESARIAMENTE EL REQUESTS TENIA "*" 
+para resolver entonces hay que instalar la version que corresponde a nuestra versión con la 
+que venimos trabajando, entonces:
+
+pipenv install --ignore-pipfile
+instalamos las dependendcias respetando las versiones con las que venimos trabajando. 
+
+"""
+"""Como gesionamos las depenencias que ya tenemos instaladas
+
+desde la terminal 
+    > pipenv graph
+    va a mostrar todas las dependecias para que pueda funcionar 
+
+    para desintalar por ejemplo el REQUEST
+    > pipenv unistall requests
+
+    si queremos instalar un paquete en específico
+    pipenv install 'requests==2.10*'
+podemos verificar la instalación en pipfile
+
+para revisar que paquetes instalados no se encuentran actualizados a la ultima version
+    >pipenv update --outdated
+
+    controlo y veo si quiero actualizar
+    >pipenv update 
+    para que me actualice todo o algun paquete en específico
+
+
+    #127 gestion de dependencias
+    #128 documentando paquetes
+    #129 Publicando paquetes
+    #128 Publicando Paquetes
+
+Seccion 14: Paquetes Populares
+    130 Variables de Entorno
+    131 Sengrid
+    132 SMS 
+    133 requests
+        cuando estamos trabajando con una API nos otorga un USUARIO o CONTRASEÑA
+        y al API nos entrega una KEY o API KEY esta necesariamente hay que agregar a
+        todas las peticiones que hagamos (GET, PUT, PATH etc) 
+        y van a tener que tener en todas sus cabeceras la API KEY
+    134 Headers en requests
+
+    135 Web Scraping
+        Vimos como podemos comunicarnos con otros servicios pero no todas las pag web nos van a entregar una API requests
+        entonces vamos a tener que analizar a cuales paginas web podemos conectarnos
+        stackoverflow
+        obetemos el titulo de las preguntas mas recientes y el nombre de usuario
+        en nuestra terminal -> pipenv install beautifulsoup4
+    136 Excel
+    137 Pruebas Automáticas
+        Automatizar las pruebas es muy útil -> asi que podemos ir haciendo pruebas automatizadas
+        asi no tenemos que hacer pruebas manuales. 
+        Primero tenemos que instalar Selenium
+        ir a Pipy -> selenium 
+            bajar hasta los drivers -> que depende de lo que estamos haciendo
+            se recomienda ChromeDrive
+            ir a Chrome y ver la versison about Chrome
+            vemos las versiones -> nos interesa la de win32 "ahora" 
+            dejar esto en un lugar especifico como un lugar del disco C (carpeta web driver llevar ahí el archivo.)
+            ir al buscardor y enviroment -> luego ir a path edit -> new -> escribir la ruta donde guarder el driver
+            para instalar con exito en Chrome
+            
+    138 Selenium
+    
+
+
+
+
