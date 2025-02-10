@@ -352,7 +352,36 @@ Seccion 14: Paquetes Populares
             
     138 Selenium
     
+Sección :
 
+    DJANGO - Para construir aplicaciones web 
+    una vez en el entorno virtual tenemos en la carpeta productly
+        init ->es para transformar nuestra carpeta en un paquete
+        Settings -> vamos a colocar distintas configuraciones en nuestro proyecto
+        url -> vamos a configuar todas las rutas de nuestra aplicación.
+        python manage.py runserver
 
+Watching for file changes with StatReloader
+Performing system checks...
 
+System check identified no issues (0 silenced).
 
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for 
+app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+February 10, 2025 - 05:46:01
+Django version 4.1.7, using settings 'productly.settings'
+Starting development server at http://127.0.0.1:8000/ -> ESTA ES NUESTRA RUTA DONDE VAMOS A PODER VER EL PROYECTO
+Quit the server with CTRL-BREAK.
+
+python manage.py startapp productos
+
+ir a Migrations -> views
+si entendemos los request y response
+    -instalar productos
+    -urls /productos y etc
+    -views -> /para que se ejecuten el indez() que van a recibir los request (argumento) y construir los response
+
+para instalar la app de productos vamos a apps 
+copiamos el nombre de la clase 
+pegamos la class en Settings con el nombre de la clase siguiendo la ruta productos.apps.ProductosConfig
