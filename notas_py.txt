@@ -385,3 +385,17 @@ si entendemos los request y response
 para instalar la app de productos vamos a apps 
 copiamos el nombre de la clase 
 pegamos la class en Settings con el nombre de la clase siguiendo la ruta productos.apps.ProductosConfig
+
+models:
+    si tenemos una clase en Python 
+    "producto" con id nombre y descripción
+    si queremos tomar ese producto y guardar
+    vamos a tener que hacer una consulta Query en SQL
+    ORM object relational mapping 
+    las clases en python entonces van a estar conectadas a un ORM y esta se va
+    a encargar de guardar en nuestra base de datos.
+    vamos a poder entonces manipular los datos con el ORM
+    Migraciones: 
+    Tenemos que conectar nuestra app con los modelos e inserte en nuestra base de datos
+    "es como un paso a paso de lo que se tiene que hacer para actualizar la base de datos"
+    
